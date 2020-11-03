@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/javascript.js"></script>
+</head>
+<body>
+<div id="encabezado">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  		<a class="navbar-brand" href="principal.html"><img src="img/letrad.png", height="20", width="20"></a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+
+  		<div class="collapse navbar-collapse" id="navbarColor01">
+    		<ul class="navbar-nav mr-auto">
+      			<li class="nav-item">
+        			<a class="nav-link" href="principal.html">Principal</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="tablas.html">Tablas</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="video.html">Video</a>
+      			</li>
+      			<li class="nav-item active">
+        			<a class="nav-link" href="formulario">Formulario
+        				<span class="sr-only">(current)</span>
+        			</a>
+      			</li>
+    		</ul>
+  		</div>
+	</nav>
+  <div id="imagenEncabezado">
+    <img class="imagen" src="img/contratar-desarrollo-web-profesional.jpg">
+  </div>		
+</div>
+<div id="contenido">
+	<form action="" method="post" onsubmit="return validarFormulario()">
+    <div class="form-group">
+      <label for="Nombre">Nombre</label>
+      <input type="text" class="form-control" id="Nombre">
+    </div>
+    <div class="form-group">
+      <label for="Direccion">Dirección</label>
+      <input type="text" class="form-control" id="Direccion">
+    </div>
+    <div class="form-group">
+      <label for="Telefono">Teléfono</label>
+      <input type="text" class="form-control" id="Telefono">
+    </div>
+    <div class="form-group">
+      <label for="Correo">Correo</label>
+      <input type="text" class="form-control" id="Correo">
+    </div>
+    <div class="form-group">
+      <label for="Ciudad">Ciudad</label>
+      <input type="text" class="form-control" id="Ciudad">
+    </div>
+    <div class="form-group">
+      <label for="Edad">Edad</label>
+      <input type="text" class="form-control" id="Edad">
+    </div>
+    <button type="submit" class="btn btn-primary" name="submit" value="Enviar">Submit</button>
+  </form>
+</div>
+<div class="container navbar navbar-expand-lg navbar-dark bg-primary">
+  	<footer>
+	
+	<p>Derechos Reservados: Daniel García. Contacto: daniel.garcia@pascualbravo.edu.co</p>
+
+	</footer>
+</div>
+</body>
+</html>

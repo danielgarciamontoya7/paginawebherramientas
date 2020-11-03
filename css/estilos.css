@@ -1,0 +1,53 @@
+html, body{margin: 0; padding: 0}
+
+img.imagen {
+	width: 100%;
+	height: 300px;
+	margin: 20px 20px 20px 0;
+}
+
+div#encabezado{
+	height: 30%;
+	width: 100%;
+}
+
+div#contenido {
+	height: 600px;
+	width: 100%;
+	margin: 20px;
+}
+
+div#menu {
+	width: 20%;
+	float: left;
+	border: 1px;
+	border-style: solid;
+}
+
+div#contenidoPrincipal {
+	float: right;
+	width: 75%;
+	margin: 10px;
+	height: 500px;
+	border: 1px;
+	border-style: solid;
+}
+
+div#contenidoPrincipal h1{
+	text-align: center;
+}
+
+div#contenidoPrincipal p{
+	padding: 10px;
+}
+
+div#contenidoPrincipal img{
+	width: 300px;
+	height: 300px;
+	padding: 20px;
+	margin-left: 300px;
+}
+
+footer {
+	color: white;
+}
